@@ -14,14 +14,14 @@ import java.net.URI;
  * User: LittleXuan
  * Date: 2015/11/18.
  * Time: 17:08
- * Desc: User对外开放的RestFul服务
+ * Desc: User瀵瑰寮�鏀剧殑RestFul鏈嶅姟
  */
 @Path("/users")
 public class UserResource {
     @Context
     UriInfo uriInfo;
     /**
-     * 根据id查找User
+     * 鏍规嵁id鏌ユ壘User
      * @param id
      * @return
      */
@@ -38,7 +38,7 @@ public class UserResource {
     }
 
     /**
-     * 增加用户
+     * 澧炲姞鐢ㄦ埛
      * @param userId
      * @param userName
      * @param userAge
@@ -60,7 +60,7 @@ public class UserResource {
     }
 
     /**
-     * 更新用户
+     * 鏇存柊鐢ㄦ埛
      * @param jaxbContact
      * @return
      */

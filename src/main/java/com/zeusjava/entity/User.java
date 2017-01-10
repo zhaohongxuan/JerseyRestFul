@@ -7,7 +7,7 @@ import javax.xml.bind.annotation.XmlRootElement;
  * User: LittleXuan
  * Date: 2015/11/18.
  * Time: 17:05
- * Desc: UserΚµΜεΐΰ
+ * Desc: Userε®δ½“η±»
  */
 @XmlRootElement
 public class User {
